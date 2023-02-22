@@ -1,0 +1,126 @@
+{
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.xlsx": "default",
+        "*.zip": "default"
+    },
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.terraform"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "commentAnchors.tags.anchors": {
+    
+        "¦": {
+            "iconColor": "#844FBA",
+            "highlightColor": "#844FBA",
+            "scope": "file",
+            "styleComment": true
+        },
+        "ANCHOR": {
+            "iconColor": "default",
+            "highlightColor": "#A8C023",
+            "scope": "file"
+        },
+        "TODO": {
+            "iconColor": "blue",
+            "highlightColor": "#3ea8ff",
+            "scope": "workspace"
+        },
+        "FIXME": {
+            "iconColor": "red",
+            "highlightColor": "#F44336",
+            "scope": "workspace"
+        },
+        "STUB": {
+            "iconColor": "purple",
+            "highlightColor": "#BA68C8",
+            "scope": "file"
+        },
+        "NOTE": {
+            "iconColor": "orange",
+            "highlightColor": "#FFB300",
+            "scope": "file"
+        },
+        "REVIEW": {
+            "iconColor": "green",
+            "highlightColor": "#64DD17",
+            "scope": "workspace"
+        },
+        "SECTION": {
+            "iconColor": "blurple",
+            "highlightColor": "#896afc",
+            "scope": "workspace",
+            "behavior": "region"
+        },
+        "LINK": {
+            "iconColor": "#2ecc71",
+            "highlightColor": "#2ecc71",
+            "scope": "workspace",
+            "behavior": "link"
+        }
+    },
+    "[python]": {
+        "editor.defaultFormatter": "giyyapan.pyformat",
+        "editor.formatOnType": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "aws.samcli.location": "C:\\Program Files\\Amazon\\AWSSAMCLI\\bin\\sam.cmd",
+    "files.associations": {
+        "*.tf": "terraform"
+    },
+    "json.schemas": [],
+    "bracketPairColorizer.depreciation-notice": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.suggest.showMethods": true,
+    "editor.suggest.preview": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.snippetSuggestions": "top",
+    "git.ignoreRebaseWarning": true,
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "grammarly.files.include": [
+        "**/readme.md",
+        "**/README.md",
+        "**/*.txt",
+        "**./*.tf"
+    ],
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": true
+    },
+    "window.zoomLevel": 1
+}
